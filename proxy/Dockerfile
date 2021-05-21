@@ -1,5 +1,4 @@
-FROM nginx:1.9
-
+FROM nginx:1.17-alpine
 # New default conf containing the proxy config
 COPY ./default.conf /etc/nginx/conf.d/default.conf
 

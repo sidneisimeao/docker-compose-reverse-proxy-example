@@ -1,4 +1,4 @@
-version: '2'
+version: "3.7"
 services:
   proxy:
     build: ./
@@ -8,7 +8,6 @@ services:
     ports:
       - 80:80
       - 443:443
-
 networks:
   microservice1:
     external:
